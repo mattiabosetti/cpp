@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "run",
+            "program": "$PROJECT_DIR$\a.exe",
+        },
+
+    ]
+}
