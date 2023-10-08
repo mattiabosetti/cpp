@@ -11,7 +11,7 @@ int main() {
     cout << "*****************" << endl;
 
 
-    for (int i = 0; i < size(macchine); i++){
+    for (int i = 0; i < 3; i++){
         cout << macchine[i] << endl;
     }
 

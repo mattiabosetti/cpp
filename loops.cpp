@@ -14,7 +14,7 @@ int main() {
             cout << "Stai giocando" << endl;
             cout << "Premi q per quittare: ";
             getline(cin, risposta);
-            cout << "\n*********************************" << endl;
+            cout << "*********************************" << endl;
         } while(risposta.at(0)!='q' && risposta.at(0)!='Q');
 
         cout << "Hai quittato il gioco" << endl;
