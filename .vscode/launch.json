@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -9,7 +10,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/mattb/Documents/Programmazione/cpp",
-      "program": "c:/Users/mattb/Documents/Programmazione/cpp/build/Debug/outDebug",
+      "program": "c:/Users/mattb/Documents/Programmazione/cpp",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
