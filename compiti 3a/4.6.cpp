@@ -12,8 +12,10 @@ int main() {
         cin >> n;
     } while( n <= 0 );
 
-    while( pow(i, i) <= n ) {
-        i++;
+i=n;
+
+    while( pow(i, i) >= n ) {
+        i--;
     }
     cout << "Il numero è: " << i; 
 
