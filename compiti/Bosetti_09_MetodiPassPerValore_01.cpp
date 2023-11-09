@@ -7,7 +7,7 @@ using std::cin;
 double a, b;
 
 void ordina(){
-    int c;
+    float c;
     if ( b > a ) {
         c = a;
         a = b;

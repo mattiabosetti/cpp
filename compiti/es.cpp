@@ -16,10 +16,10 @@ void ordina(float* pX, float* pY){
     float c;
     if( y < x ){
         c = x;
-        x = y;
+        x = y;                              non funziona?
         y = c;
     }
-}; */ 
+}; */
 
 int main(){
     float a, b;
@@ -30,8 +30,12 @@ int main(){
     assert(cin >> b);
 
     ordina(&a, &b);
-    cout << "Il numero maggiore è: " << a << endl;
-    cout << "Il numero minore è: " << b << endl;
+    if( a == b ){
+        cout << "I due numeri sono uguali\n";
+    } else {
+        cout << "Il numero maggiore è: " << a << endl;
+        cout << "Il numero minore è: " << b << endl;
+        }
 
     return 0;
 }
