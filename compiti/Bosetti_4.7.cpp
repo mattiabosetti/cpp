@@ -1,9 +1,15 @@
 #include <iostream>
+<<<<<<< HEAD:compiti 3a/Bosetti_4.7.cpp
 #include <windows.h>
 using namespace std;
 
 int main(){
     SetConsoleOutputCP(CP_UTF8);
+=======
+using namespace std;
+
+int main(){
+>>>>>>> 6d79d389736d6825c4e4d8dff369768feb8506db:compiti/Bosetti_4.7.cpp
     int i=0, numeri[100], n=0;
     double media, somma = 0;
     do{
