@@ -42,4 +42,6 @@ add_executable(compiti
         es1.cpp
         es2.cpp
         es3.cpp
-        FniRicorsive_Rev1.cpp)
+        FniRicorsive_Rev1.cpp
+        Bosetti_21_AlgoOrdinamento_02_BubbleSort.cpp
+        Bosetti_21_AlgoOrdinamento_02_BubbleSort.cpp)
